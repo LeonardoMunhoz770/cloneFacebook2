@@ -1,0 +1,143 @@
+html, body{
+    background-color: #f0f2f5;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.containerPrincipal{
+    width: 80%;
+    height: 800px;
+    flex-direction: row;
+    display: flex;
+}
+
+.frase{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start;
+}
+
+.frase img{
+    width: 302px;
+    height: 106px;
+    margin: -28px;
+}
+
+.frase h2{
+    font-size: 28px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.containerLogin{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerLogin form{
+    height: 349px;
+    width: 396px;
+    background-color: blue;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    background-color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+}
+
+.containerLogin input{
+    width: 80%;
+    height: 25px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+}
+
+
+.containerInputs{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerBotaoEntrar{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao{
+    width: 90%;
+    height: 48px;
+    background-color: #1877F2;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 0 16px;
+    line-height: 48px;
+}
+
+.senha{
+    font-weight: 500;
+    color: #1877F2;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.linha{
+    border-bottom: 1px;
+    width: 364px;
+    border: 0.5px solid #dadde1;
+    margin-top: 10px;
+}
+
+.cadastro{
+    width: 167px;
+    height: 48px;
+    background-color: #42B72A;
+    border-radius: 8px;
+    border: none;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media(max-width: 1020px){
+    .containerPrincipal{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .frase{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}
